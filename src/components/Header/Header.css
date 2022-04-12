@@ -1,0 +1,25 @@
+.headLogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headLogo img{
+    height: 80px;
+    margin: 10px 0px;
+}
+.headerWapper nav{
+    background-color: #000;
+    line-height: 40px;
+    font-size: 20PX;
+    text-align: center;
+}
+.headerWapper nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    padding: 5px 8px;
+}
+.headerWapper nav a:hover{
+    background-color: gray;
+    transition: 0.4s;
+}
